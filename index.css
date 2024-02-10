@@ -1,0 +1,172 @@
+.head {
+    background-image: url(./netflixbg.jpg);
+    background-size: 153% 123%;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    zoom: 100%;
+    background-color:#212020bd;
+    background-blend-mode: hard-light;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    padding: 20px 10px;
+}
+.imgdemo{
+    width: 100%;
+    height: 70vh;
+}
+.vid1{
+    background-image: url("./netflixtv.png");
+    background-size: cover;
+}
+.tog1{
+    display: none;
+}
+.bgroup{
+    user-select: none;
+    cursor: pointer;
+}
+video{
+    
+    height: 58%;
+    width: 78%;
+    position: relative;
+    top: 18%;
+    left: 12%;
+    border: 2px solid white;
+    padding: 0;
+    margin: 0;
+    background-blend-mode: difference;
+    backface-visibility: visible;
+}
+.vid1{
+    
+    background-image: url(./netflixtv.png);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    background-attachment: local
+}
+#vidimg{
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    position: relative;
+}
+#vdemo {
+
+    height: auto;
+    width: 63%;
+    position: absolute;
+    top: 8%;
+    left: 17%;
+    border: none;
+    padding: 0;
+    margin: 0;
+} 
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   }
+  
+#stranger{
+    background-image: url('./netflix-strangerthings.jpg');
+    background-size: cover;
+}  
+.strangerdiv{
+    min-width: 266px;
+    margin: 10px;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    /* height: 100px; */
+    position: absolute;
+    background-color: black;
+    top: 70%;
+    /* left: 66px; */
+}
+.gif{
+    height: 70px;
+    width: 75px;
+}
+.strangerpic{
+    height: 70px;
+    width: 60px;
+}
+#strcontain{
+    background-image: url(./netflix-strangerthings.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+#vdemo1 {
+
+    height: 57%;
+    width: auto;
+    position: relative;
+    top: 20%;
+    left: 14%;
+    border: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+.einp{
+    padding: 7px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.signin{
+    height: 30px;
+    padding-top: 0;
+    padding: 4px 10px;
+    font-size: 13px;
+}
+.select{
+    height: 30px;
+    font-size: 13px;
+    padding: 4px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+b{
+    
+    font-size: 7vh;
+    text-align: center;
+    display: flex;
+    font-weight: 800;
+}
+h1{
+    font-weight: 800;
+}
+p{
+    font-size: 4vh;
+    margin-bottom: 8px;
+}
+button{
+    background-color: red;
+    color: white;
+}
+.t-shadow{
+    text-shadow: 0 0 25px white;
+}
+a,.foot{
+    color: #ada8a8;
+}
+footer{
+    background-color: black;
+}
+/*
+.gif{
+
+}
+*/
